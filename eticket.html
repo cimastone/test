@@ -1,0 +1,1653 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <style type="text/css">
+html,body,div,span,p,img,table,tbody,tr,th,td {  
+  margin: 0; 
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+* {
+  font-size: 8pt;
+  overflow: visible !important;
+}
+body {
+  width: 210mm;
+  writing-mode: lr-tb;
+  font-size: 8pt;
+  font-family: arial, sans-serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+}
+th {
+  background-color: #1A1A4F;
+  color: #fff;
+  width: 100%;
+  padding: 5px 5px;
+  text-align: left;
+  text-transform: uppercase;
+  page-break-after: avoid !important;
+}
+td:first-child:not(.tablecell) {
+  padding: 5px;
+}
+.header {
+  background: #E8F8FF;
+  color: #252561;
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
+.notice p {
+  text-align: justify;
+  font-size: 7pt;
+}
+.iata_logo {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAjCAYAAADrJzjpAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wFHww3F3N8YtoAAAcnSURBVFjDxZh9rJdlGce/3+dwXgR5S8CjJi2EjJhAFGYJgoIljLY2F2um1lKYa9karRf/qEbOluRm9U/Z3JqFrS0xGkt05UrLkFFIinQ4vIUoeOAg6OEcDudwrk9/nOvHHn78PKDnLJ7t2Z7nue/nuq77e18v3+uWhuiKiFPPQD1QRISARqA8NiT6PBRCANmuGLxU0hRJe2xvAa6XNMr2etubyvPP61VBELgMaAGOAA9HxJGIWAasA1oi4o2I+OFQ6S0G6x6AgA9KWiHpMUkvAWNsj8ldWCLpIdtttjsj4isRcX7hrvg1sIb+63BEzAF+BTwFLALWA/cBt+QcImJBdVycD1eZlcYAbEujTwLtEXELcCztXR4RlXmvnFdXyWtZKVP8XtIioA64SNIISSNyfJbt3bnYy4EZg1E6bAgMb5C00XY9sNH2TbZbgQZJbZI2S+qVdELSH23Ppn8l48834iNsG6jrB5Mi5RaZbgvbhaQLJPWV3hvPN+IGrs68PFXSNKA+3ycAM3PebkmzJc2UJNsdgzIcaAKW2R4p6Z2E+UFJqyWttr00v90k6a+2b8wiQ6ZE2f6HpMq8Y7afBT4q6YZ3svNAo6Q/D0v/q5d037lUtFKV7LW9UdJ6SS9LmibpeuDztvdK6gG22f5ZukUj4JR/T8q62/btleA+R90twK+d+dS2RwE32+47y8/dth+SNBpYVRTFtyJioe1Hge9Jara9UNK1ku4EHra9QtJYSZMkNQOfsv0+Sc8A77X9GPC4pIZaxqfBBvZKek5Sz2llOyJ+UMnJmW/PuGqMzSmluNcyb/8i5y0HNgFP5ftPUs8w4JFasgfQ1xERV1YKl6tdICI+J2luRv5A2WiBpCskdQBfLIri8YiYKelW2xOAw7afkLQkUV0n6bcJ0s9tfyFlrcl48dsgXSfpAPCboii2n+HOVdRzJdABHImII0mcTt0RcTQiekqodEfEj0pUYGRE1EdEXUQMB5ry+1URsbWMbES8VS2/ojcijgLbIuL91Ta6VuClku/YvhOos00NNLA9LvMzKatd0pdt/65qbp2kX0q6rfQvkg5nYap11Ul6RdJdSY9PQ/q0PJ6u0u8LRXEvsMb2Skm9qay8O32S5kmaWMoW42ptue2+iBhXSo0Gemy/ALRXByTQaHuP7W+8K/4ONEXE98tBUrXN5eetwCdq8PTKDl4YESuB7moZNe4W4CP/VwZZ4ehD3Q6+49YtA2teVtlu23+3faI0PhWYnNvfUhRFayqtt70YOFl2xdK2dwLPF0XRDRiYbvtySQG0FkWxc7B8+2MR0Q4cB54DxlaN74qI48nBV5fQ+jgQQGetOyI2AsNTxlhgc0R05diDgyZZicSopAX7gOOlseWSJpWQ/GQJ3WsyoOskNWQAk1WPbOW6KhwH+HDp3w9ERFNRFN2D8bMH+2MoAO4tfb8A2FJCNTKwRueiLgYmAzcA+zMQdwPzgSkRMSHlFMCBjNUjqefFiLj0XfPxiGjI6uj06+2l4cVJrJQ5ujef5yRqbbZ3SupKRifbr0vabHtHURQHc/4KoFlSO/Bo7t5E22MHCvKz0cn3ZMAoDdiRC2qSdFcG7CHgp0BHBt28KhmX2R6eRrwBvFUCZoTte/K/J20/mQscDTQPlLuLs1DIsZIm5qdO2635PFPSwnx+xPYE28dS6dVVci6V1NSfdDhQFEW5MH1V0mhJJyVtk3S0RHFnD8a/55eKxb9KxrxYInAH0odP5HtrRIws+e+q9P2TwLcroETEuIh4Icf6gDbg1ZLctYPpOWeVjN2QxiyVdFUicxK4KDv6YXk4NMr2pEStXtJE27IdFVfL9/m2Z6Y7IGkMMB6I1HftQGeNZzP8Ekn7JP3X9p9S6a2SdtreBUwtiqKhKIpGSd+VtEvSoUquz8ZZkvZIarXdUgLidkl7Jb1qu9l2Y1EUjbZXSdqXQTqi7OflSnoaH0+/nga0ZlQvtf0HYK7tTkl/A25LA/dL+pDtLZJGJZvbL2k6MNL2IUkHs9HYYHuOpLWVs5WIWJTsr9f2LOBp282Srkl+fgBosz0SmGr7oO1nzkA8t+9i4P7c6gdsPwF8JgtHu6Q7sjn4UrZhXembS4DrgMmS6m2Pl7QN+LrtdbanS/pPzhseEXW277bdaPubkp61PVHS1yRtBLqBO7LZ6LI9RVLrQK7ygO2XgLmS/inpkO1hkjbktr4p6ceSnrY9I3vLCbZ7bXfYXixpk6TXgS7bU4DrJM0H/p2nCCds3581YXqivlTSpyVdKOnmzGbkUUeHpO2ZBGq6yhhJ84DXbLflscFhSTsz/fVI2gHssL0oF92XaWwB8LztKyWtBa6w3QncmADMsP2mpJ3Ay7Y/C2y13SNpBtCdRxaXAEdt78tFTpP0lzxf333OFLLEqV2LupaOmWv9c2pO5a7RIqocxJV55TlvR23/BysHvBfcVeYuAAAAAElFTkSuQmCC);
+  height: 35px;
+  width: 46px;
+  padding-right: 5px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  float: right;
+}
+.waiting {
+  background-color: #FFF099;
+  text-align: center;
+  font-weight: bold;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.one_itin {
+  page-break-before: always;
+}</style>
+<body>
+  <page size="A4">
+    <div class="one_itin">
+      <table>
+        <tbody>
+          <tr>
+            <th>
+              <div class="depot_logo"></div>
+              <div class="iata_logo"></div>
+            </th>
+          </tr>
+          <tr style="font-size: 7pt;text-align: center;">
+            <td>Сертификат на право продажи авиационных перевозок №АП0613</td>
+          </tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td class="bold">Офис агентства</td>
+                      <td><p>79035, Украина, г. Львов, ул. Зеленая, 186<br>Tel.: +38044 502 74 38 email: info@tickets.ua</p></td>
+                      <td>
+                        <p></p>
+                        <p class="bold">IATA №</p>
+                        <p></p>
+                      </td>
+                      <td>
+                        <p class="bold">Дата выписки</p>
+                        <p>—</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr>
+            <th>ЭЛЕКТРОННЫЙ БИЛЕТ (МАРШРУТ/КВИТАНЦИЯ)</th>
+          </tr>
+          <tr>
+            <td class="tablecell">
+              <table style=&quot;margin-bottom: 0px&quot; >
+                <tbody>
+                  <colgroup>
+                    <col width="50%">
+                    <col width="50%">
+                  </colgroup>
+                  <tr class="header">
+                    <td>Номер бронирования</td>
+                    <td>Номера бронирований авиакомпаний</td>
+                  </tr>
+                  <tr>
+                    <td>4UPX2J</td>
+                    <td>CZ/NF091W</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+            <tr>
+              <th>ДЕТАЛИ ПЕРЕЛЁТА</th>
+            </tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <tbody>
+                    <colgroup>
+                      <col width="25%">
+                      <col width="25%">
+                      <col width="25%">
+                      <col width="25%">
+                    </colgroup>
+                    <tr class="header">
+                      <td>Пассажир</td>
+                      <td>Номер документа</td>
+                      <td>Валидирующий перевозчик</td>
+                      <td>Номер билета</td>
+                    </tr>
+                    <tr>
+                      <td>YANG GANGSHUANG </td>
+                      <td>E30558505</td>
+                      <td>China Southern Airlines (CZ)</td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr><th>&nbsp</th></tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <colgroup>
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                  </colgroup>
+                  <tbody>
+                      <tr class="header">
+                        <td>&nbsp</td>
+                        <td>Рейс</td>
+                        <td>Вылет</td>
+                        <td>Прилёт</td>
+                      </tr>
+                      <tr>
+                        <td><img src="data:image/png;base64,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
+rkJggg==
+"/></td>
+                        <td class="bold">
+                          <p>CZ-3558</p>
+                          <p>economy (Q)</p></td>
+                        <td>
+                          <p class="bold">05.05.2017 15:50</p>
+                          <p>Шанхай (CN)</p>
+                          <p>Hongqiao International (2)</p>
+                        </td>
+                        <td>
+                          <p class="bold">05.05.2017 18:20</p>
+                          <p>Шэньчжен (CN)</p>
+                          <p>Shenzhen</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="tablecell" colspan="4">
+                          <table>
+                            <colgroup>
+                              <col width="20%">
+                              <col width="20%">
+                              <col width="15%">
+                              <col width="10%">
+                              <col width="15%">
+                              <col width="20%">
+                            <tbody>
+                              <tr class="header">
+                                <td>Детали</td>
+                                <td>Продолжительность</td>
+                                <td>Самолёт</td>
+                                <td>Багаж</td>
+                                <td>Тариф</td>
+                                <td>Статус</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Рейс выполняет China Southern Airlines (CZ)</p>
+                                  <p></p>
+                                </td>
+                                <td><p>02:30</p></td>
+                                <td><p>Airbus A321</p></td>
+                                <td><p>1N</p></td>
+                                <td><p>Z2KNCQB</p></td>
+                                <td><p>HK (Подтверждено)</p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                        <tr class="waiting">
+                          <td colspan="4">Пересадка 19 hours 45 minutes</td>
+                        </tr>
+                      <tr class="header">
+                        <td>&nbsp</td>
+                        <td>Рейс</td>
+                        <td>Вылет</td>
+                        <td>Прилёт</td>
+                      </tr>
+                      <tr>
+                        <td><img src="data:image/png;base64,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
+rkJggg==
+"/></td>
+                        <td class="bold">
+                          <p>CZ-6083</p>
+                          <p>economy (Z)</p></td>
+                        <td>
+                          <p class="bold">06.05.2017 14:05</p>
+                          <p>Шэньчжен (CN)</p>
+                          <p>Shenzhen</p>
+                        </td>
+                        <td>
+                          <p class="bold">06.05.2017 15:45</p>
+                          <p>Бангкок (TH)</p>
+                          <p>Suvarnabhumi International (1)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="tablecell" colspan="4">
+                          <table>
+                            <colgroup>
+                              <col width="20%">
+                              <col width="20%">
+                              <col width="15%">
+                              <col width="10%">
+                              <col width="15%">
+                              <col width="20%">
+                            <tbody>
+                              <tr class="header">
+                                <td>Детали</td>
+                                <td>Продолжительность</td>
+                                <td>Самолёт</td>
+                                <td>Багаж</td>
+                                <td>Тариф</td>
+                                <td>Статус</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Рейс выполняет China Southern Airlines (CZ)</p>
+                                  <p></p>
+                                </td>
+                                <td><p>02:40</p></td>
+                                <td><p>Airbus A321</p></td>
+                                <td><p>1N</p></td>
+                                <td><p>Z2KNCQB</p></td>
+                                <td><p>HK (Подтверждено)</p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr class="header">
+                        <td>&nbsp</td>
+                        <td>Рейс</td>
+                        <td>Вылет</td>
+                        <td>Прилёт</td>
+                      </tr>
+                      <tr>
+                        <td><img src="data:image/png;base64,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
+rkJggg==
+"/></td>
+                        <td class="bold">
+                          <p>CZ-358</p>
+                          <p>economy (Z)</p></td>
+                        <td>
+                          <p class="bold">06.06.2017 11:55</p>
+                          <p>Бангкок (TH)</p>
+                          <p>Suvarnabhumi International (1)</p>
+                        </td>
+                        <td>
+                          <p class="bold">06.06.2017 15:25</p>
+                          <p>Гуанчжоу (CN)</p>
+                          <p>Baiyun</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="tablecell" colspan="4">
+                          <table>
+                            <colgroup>
+                              <col width="20%">
+                              <col width="20%">
+                              <col width="15%">
+                              <col width="10%">
+                              <col width="15%">
+                              <col width="20%">
+                            <tbody>
+                              <tr class="header">
+                                <td>Детали</td>
+                                <td>Продолжительность</td>
+                                <td>Самолёт</td>
+                                <td>Багаж</td>
+                                <td>Тариф</td>
+                                <td>Статус</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Рейс выполняет China Southern Airlines (CZ)</p>
+                                  <p></p>
+                                </td>
+                                <td><p>02:30</p></td>
+                                <td><p>Airbus A320-100/200</p></td>
+                                <td><p>1N</p></td>
+                                <td><p>Z2KNCQB</p></td>
+                                <td><p>HK (Подтверждено)</p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                        <tr class="waiting">
+                          <td colspan="4">Пересадка 1 hours 35 minutes</td>
+                        </tr>
+                      <tr class="header">
+                        <td>&nbsp</td>
+                        <td>Рейс</td>
+                        <td>Вылет</td>
+                        <td>Прилёт</td>
+                      </tr>
+                      <tr>
+                        <td><img src="data:image/png;base64,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
+rkJggg==
+"/></td>
+                        <td class="bold">
+                          <p>CZ-3581</p>
+                          <p>economy (Q)</p></td>
+                        <td>
+                          <p class="bold">06.06.2017 17:00</p>
+                          <p>Гуанчжоу (CN)</p>
+                          <p>Baiyun</p>
+                        </td>
+                        <td>
+                          <p class="bold">06.06.2017 19:25</p>
+                          <p>Шанхай (CN)</p>
+                          <p>Hongqiao International (2)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="tablecell" colspan="4">
+                          <table>
+                            <colgroup>
+                              <col width="20%">
+                              <col width="20%">
+                              <col width="15%">
+                              <col width="10%">
+                              <col width="15%">
+                              <col width="20%">
+                            <tbody>
+                              <tr class="header">
+                                <td>Детали</td>
+                                <td>Продолжительность</td>
+                                <td>Самолёт</td>
+                                <td>Багаж</td>
+                                <td>Тариф</td>
+                                <td>Статус</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Рейс выполняет China Southern Airlines (CZ)</p>
+                                  <p></p>
+                                </td>
+                                <td><p>02:25</p></td>
+                                <td><p>Airbus A321</p></td>
+                                <td><p>1N</p></td>
+                                <td><p>Z2KNCQB</p></td>
+                                <td><p>HK (Подтверждено)</p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr><th>ПЕРЕДАТОЧНАЯ НАДПИСЬ/ОГРАНИЧЕНИЯ</th></tr>
+          <tr><td>PAX Q/NONEND PENALTY APPLS,PAX Q/NONEND PENALTY APPLS</td></tr>
+            <tr>
+              <th>Расчёт стоимости</th>
+            </tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <colgroup>
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                  </colgroup>
+                  <tbody>
+                    <tr class="header">
+                      <td>Форма оплаты</td>
+                      <td>Тариф</td>
+                      <td>Аэропортовые сборы</td>
+                      <td>Итого</td>
+                    </tr>
+                    <tr>
+                      <td>ПК XXXX XXXX XXXX XXXX</p></td>
+                      <td>RUR 13440.00</td>
+                      <td>RUR 3431.00</td>
+                      <td>RUR 16871.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Расчёт оплаты</th>
+            </tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <colgroup>
+                    <col width="33.33%">
+                    <col width="33.33%">
+                    <col width="33.33%">
+                  </colgroup>
+                  <tbody>
+                    <tr class="header">
+                      <td>Эквивалент</td>
+                      <td>Сервисный сбор</td>
+                      <td>Общая стоимость</td>
+                    </tr>
+                    <tr>
+                      <td>EUR 273.43</td>
+                      <td>EUR 0.00</td>
+                      <td>EUR 273.43</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr><th>ПРИМЕЧАНИЯ</th></tr>
+          <tr>
+            <td class="notice">
+              <p> Перевозка и другие услуги, предоставляемые перевозчиком, подчиняются условиям перевозки, которые описаны ниже. Эти условия могут быть получены от валидирующего перевозчика.</p><p> Маршрут/квитанция представляет собой «Пассажирский билет», согласно статье №3 Варшавской конвенции, кроме тех случаев, когда перевозчик предоставляет пассажиру другой документ, отвечающий требованиям статьи №3.</p><p> Если пассажир достигает конечного места прибытия или делает остановку в другой стране, Варшавская конвенция может оставаться в силе, регулировать, а в большинстве случаев ограничивать ответственность перевозчика за смерть или травмы, а также по отношению к потере или повреждению багажа. Читайте также «Информацию об ограничении ответственности для пассажиров международных рейсов» и «Ограничение ответственности за багаж». </p>
+              
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="one_itin">
+      <table>
+        <tbody>
+          <tr>
+            <th>
+              <div class="depot_logo"></div>
+              <div class="iata_logo"></div>
+            </th>
+          </tr>
+          <tr style="font-size: 7pt;text-align: center;">
+            <td>Сертификат на право продажи авиационных перевозок №АП0613</td>
+          </tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td class="bold">Офис агентства</td>
+                      <td><p>79035, Украина, г. Львов, ул. Зеленая, 186<br>Tel.: +38044 502 74 38 email: info@tickets.ua</p></td>
+                      <td>
+                        <p></p>
+                        <p class="bold">IATA №</p>
+                        <p></p>
+                      </td>
+                      <td>
+                        <p class="bold">Дата выписки</p>
+                        <p>—</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr>
+            <th>ЭЛЕКТРОННЫЙ БИЛЕТ (МАРШРУТ/КВИТАНЦИЯ)</th>
+          </tr>
+          <tr>
+            <td class="tablecell">
+              <table style=&quot;margin-bottom: 0px&quot; >
+                <tbody>
+                  <colgroup>
+                    <col width="50%">
+                    <col width="50%">
+                  </colgroup>
+                  <tr class="header">
+                    <td>Номер бронирования</td>
+                    <td>Номера бронирований авиакомпаний</td>
+                  </tr>
+                  <tr>
+                    <td>4UPX2J</td>
+                    <td>CZ/NF091W</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+            <tr>
+              <th>ДЕТАЛИ ПЕРЕЛЁТА</th>
+            </tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <tbody>
+                    <colgroup>
+                      <col width="25%">
+                      <col width="25%">
+                      <col width="25%">
+                      <col width="25%">
+                    </colgroup>
+                    <tr class="header">
+                      <td>Пассажир</td>
+                      <td>Номер документа</td>
+                      <td>Валидирующий перевозчик</td>
+                      <td>Номер билета</td>
+                    </tr>
+                    <tr>
+                      <td>JIANG YIYUE </td>
+                      <td>E30558504</td>
+                      <td>China Southern Airlines (CZ)</td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr><th>&nbsp</th></tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <colgroup>
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                  </colgroup>
+                  <tbody>
+                      <tr class="header">
+                        <td>&nbsp</td>
+                        <td>Рейс</td>
+                        <td>Вылет</td>
+                        <td>Прилёт</td>
+                      </tr>
+                      <tr>
+                        <td><img src="data:image/png;base64,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
+rkJggg==
+"/></td>
+                        <td class="bold">
+                          <p>CZ-3558</p>
+                          <p>economy (Q)</p></td>
+                        <td>
+                          <p class="bold">05.05.2017 15:50</p>
+                          <p>Шанхай (CN)</p>
+                          <p>Hongqiao International (2)</p>
+                        </td>
+                        <td>
+                          <p class="bold">05.05.2017 18:20</p>
+                          <p>Шэньчжен (CN)</p>
+                          <p>Shenzhen</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="tablecell" colspan="4">
+                          <table>
+                            <colgroup>
+                              <col width="20%">
+                              <col width="20%">
+                              <col width="15%">
+                              <col width="10%">
+                              <col width="15%">
+                              <col width="20%">
+                            <tbody>
+                              <tr class="header">
+                                <td>Детали</td>
+                                <td>Продолжительность</td>
+                                <td>Самолёт</td>
+                                <td>Багаж</td>
+                                <td>Тариф</td>
+                                <td>Статус</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Рейс выполняет China Southern Airlines (CZ)</p>
+                                  <p></p>
+                                </td>
+                                <td><p>02:30</p></td>
+                                <td><p>Airbus A321</p></td>
+                                <td><p>1N</p></td>
+                                <td><p>Z2KNCQB</p></td>
+                                <td><p>HK (Подтверждено)</p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                        <tr class="waiting">
+                          <td colspan="4">Пересадка 19 hours 45 minutes</td>
+                        </tr>
+                      <tr class="header">
+                        <td>&nbsp</td>
+                        <td>Рейс</td>
+                        <td>Вылет</td>
+                        <td>Прилёт</td>
+                      </tr>
+                      <tr>
+                        <td><img src="data:image/png;base64,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
+rkJggg==
+"/></td>
+                        <td class="bold">
+                          <p>CZ-6083</p>
+                          <p>economy (Z)</p></td>
+                        <td>
+                          <p class="bold">06.05.2017 14:05</p>
+                          <p>Шэньчжен (CN)</p>
+                          <p>Shenzhen</p>
+                        </td>
+                        <td>
+                          <p class="bold">06.05.2017 15:45</p>
+                          <p>Бангкок (TH)</p>
+                          <p>Suvarnabhumi International (1)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="tablecell" colspan="4">
+                          <table>
+                            <colgroup>
+                              <col width="20%">
+                              <col width="20%">
+                              <col width="15%">
+                              <col width="10%">
+                              <col width="15%">
+                              <col width="20%">
+                            <tbody>
+                              <tr class="header">
+                                <td>Детали</td>
+                                <td>Продолжительность</td>
+                                <td>Самолёт</td>
+                                <td>Багаж</td>
+                                <td>Тариф</td>
+                                <td>Статус</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Рейс выполняет China Southern Airlines (CZ)</p>
+                                  <p></p>
+                                </td>
+                                <td><p>02:40</p></td>
+                                <td><p>Airbus A321</p></td>
+                                <td><p>1N</p></td>
+                                <td><p>Z2KNCQB</p></td>
+                                <td><p>HK (Подтверждено)</p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr class="header">
+                        <td>&nbsp</td>
+                        <td>Рейс</td>
+                        <td>Вылет</td>
+                        <td>Прилёт</td>
+                      </tr>
+                      <tr>
+                        <td><img src="data:image/png;base64,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
+rkJggg==
+"/></td>
+                        <td class="bold">
+                          <p>CZ-358</p>
+                          <p>economy (Z)</p></td>
+                        <td>
+                          <p class="bold">06.06.2017 11:55</p>
+                          <p>Бангкок (TH)</p>
+                          <p>Suvarnabhumi International (1)</p>
+                        </td>
+                        <td>
+                          <p class="bold">06.06.2017 15:25</p>
+                          <p>Гуанчжоу (CN)</p>
+                          <p>Baiyun</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="tablecell" colspan="4">
+                          <table>
+                            <colgroup>
+                              <col width="20%">
+                              <col width="20%">
+                              <col width="15%">
+                              <col width="10%">
+                              <col width="15%">
+                              <col width="20%">
+                            <tbody>
+                              <tr class="header">
+                                <td>Детали</td>
+                                <td>Продолжительность</td>
+                                <td>Самолёт</td>
+                                <td>Багаж</td>
+                                <td>Тариф</td>
+                                <td>Статус</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Рейс выполняет China Southern Airlines (CZ)</p>
+                                  <p></p>
+                                </td>
+                                <td><p>02:30</p></td>
+                                <td><p>Airbus A320-100/200</p></td>
+                                <td><p>1N</p></td>
+                                <td><p>Z2KNCQB</p></td>
+                                <td><p>HK (Подтверждено)</p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                        <tr class="waiting">
+                          <td colspan="4">Пересадка 1 hours 35 minutes</td>
+                        </tr>
+                      <tr class="header">
+                        <td>&nbsp</td>
+                        <td>Рейс</td>
+                        <td>Вылет</td>
+                        <td>Прилёт</td>
+                      </tr>
+                      <tr>
+                        <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAA3CAIAAAC3hv6bAAAAGXRFWHRTb2Z0
+d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAELNJREFUeNrsWgdYVFf2n94L
+U5iBgaF36R2xi6hrjyVRY+8JGtTdSEw0xiQajb2gCbqJJWoS60ZjAiIGCyqg
+ggqIMJRhBgaYzjSm7QEMDljy/7vut/tt3vnmG+6bd+69797fKb9zH2i73Y5C
+5L9S0Ag2CDaIINgg2CCCYINggwiCDSIINgg2iCDYINgggmCDCIINgg0iCDYI
+Noj86bCx2VFoNAqNbPZ/EBuFzrwvR6TVm8lE3JPR0SiJ3DA0jDcl0e1PvtGm
+dgsehwGx2ezoDvnjLrjXNbdKb15y4G7hY6UTBQczA+DoDo+x17caxsUJXtTr
+u5OXAn3dY6OCnr1lNJmaW1QWixXWA5fQoFCIfGcWFot9VjnnSpGTEz0uMvAl
+T5h37S58D+4X9dy71bVSU7s5JMAT2tl5hRw2MyYi4LmavxWUWK22IS8Yp5co
+1XoWkwKNuX89mD4vNS7CO+OLk30CBBwWbdTQ8JdHE9zrAmZ2ZnF1Y1ukF9Nq
+e+qIzWrT2HjXv0TyX9TxnXc2LJo/4Vls6hpkA8e+F+LvGRHq2262oOwoAgF3
+7pcbQX4epw+t79K5fvvBqZ/yXfkcJxZ97dpMoTs/Le0tqbRFqdLOmJIaGuzd
+a8xPP87swCY367lP8u7SjXqDKf/S19Bemb4hIT78QNYnYBA43BNTuFlclpt/
+h8XmbFr3qdFoXLvxM5VCER3hP3JowotWd/HK/ZMXig5+Oefeg7qHFZKGJmWg
+n6uotvn7k9cWzxoyemjEv91vAJiZe4pqmnUBAprF+hQYcFutwTKkD6+3Kam0
+H3/xTa24iYDHUbhOOQWlby1Yr9Hohg2KWb5kyhMdpdZitg7uH/2grNqZ62Qy
+m1EoOxhytUjSPU5Ts+JRtbi93SxrVWAp5HYUqryiRqXVNckUrUp1l072laKF
+6V+6uXIZDGq9WgcOPXraBwaDUdokP5y5Ou53m1i5dl/xo7ogf8/B45cHB3h4
+hwbJTdYhE5Z/uW5Jt/e8M3+lBU+bPuvNKTNnQDxokcsr7ldu37irrjaPSqX2
+WqNOb6JSiAwa6fY90a/5D6JDPc8fWu7CYwLYezfMKC0XR4QI/+0xTaKzTtpe
+LMZS/TyoMk2bEw6Fx6K7ANIbrQIOOSXMuVeXerEsc+exjNXzfPyEt+9WwMbN
+mjZyy5bD2zYf6sYGg8Uw6JQgf2GfYK+ly7f4+wm3bXrvxKlcaWNr9zgTRw/Q
+avU5vxWFCXzcXDlOTDqLxaiXNE8aM3BQ38gunYgQ3+8Pristq144Z93J01sH
+JEeWPKiiUkiaNr2P19NIa7PZBiZH4nA4sIMVSyb/fOkWHocNCfRyDGsLli0m
+k4nQfemCN3w8BSvWZAYG+0REvfcsMCCrN5/mcekfpo0+tG2emwvLmU1/st1Y
+DImIH9a/D7QhHlgsNgqZ8KK9xfwrwDRr21cdLhFSUbukeSMN4kBvDh6PNVvt
+EEQxaLRMbUwO4rg6kXrTNpTdI9h7Rdqbc6eOoFHJfeP7jBwcN3fOOJoLx1EN
+SAqTQZVKWykMWpNCrVBoYUcg7Djq7N5zgk2nXb58e8H0UcnRQZfzbpMw2N27
+T3Qr8HmshJhgyDEMIX/bvh+WZuzcnXV6w46jnkIXDovRpdMgbcn9rVjWovrt
+RklUmP+Va/c+3XI4Y/3XYkmz41ygtv7LQ26uzvAYcDlmRNL57ILL+Xe0bfpe
+CwTneGtcPIVEqBG3Rod58Z2ZPfJou9lssUIDwoZI3CJXtr1+v5GqTcPOts45
+8/28GLZcyA6V3afcOPfxiEXXFbhAlMmGthPwmNRw3rMdCQR8vbgpbdVODyEf
+DP/X3EIw2MPHLpp67juYNo/LGpAUcem3ovLKuoLb99ksBhbbw5gEXgI3d54T
+m3H0dC4Oi00ZFKtQaly0vdMbOJPdZktfNNnP111UK50y88Olc8cH+Ql/30qL
+tk2Hw2G4bAa0leq2xbPGlpRVK1TaHqFb3cZlM/E4XNaR8zq9EYvBJMSE0Kgk
+WE4PYKy2eqkiMdInLszLZu+VRFs37bsYHuw+dliUgO8Ev7AYlKuFj8enRr1O
+v2lQGOafkwjJ6Jj+/mIKvU5lbjSjzbGh4T6sEF+uhkxtbtVFeDol+bOf7Uul
+kGOigoB0YVBoCNwWID0Wq7sbPzEh1FGN7UQHRvTN8Ytqrc7Hy02ubiu894jF
+pDnqODGov+Tettrt4hqJWqE2mS03C8voNEqvGf9x4SqFgJ88flBUmN/AvhEe
+3m4MJr37rpeH69SJKWDLTCYNns2gN0JAg8xEo/Tw+L2b0+dO/0tNQ1PG+zvW
+rckUiZsAy3XvzyH2xAYi1aFTN4AFAIkg4J9SSsgx05Z9PWF4dGSIx8ET+bUN
+HcEZwh0Gjbp1T/Ta/KZR077sZ8n4a+dHnDuqCghA4XBuKpUZT1Rz2cOyfhwb
+4H1s2rt7sZSloc7P7e4l5N/K3tfV/uHclUHJkRnp0+HjqAMLNhpNF3NuyhUa
+Xx83m9XW2NgK3gP5wFENNhT4G5fFINGpRCrJQ+AM3BcM31FHVNe4c9PXX2zP
+6LqsqW+UyRQAvKPOlWt3M5ZNu19Rk19QYtAZRw9Pevio9kLOzfjo4OBOVg0J
+SaPVL549FtqFxWUGY/v29e90ORMAicc/3UajoX3OpGQarQPXphb1tcLHfWP9
+Coqr3ll95MqPGXq98evj+bMn97tWVAW5x92VzeMya+pbEiJ9XoPftGhNo3YU
+U9qtU/N2oukavLuLpvyhjkqw8xi6GhEuyMUt90jMowJBkHf/YO4fB8ZHtaom
++bO/QwiqKnrQptUnxoeSiAQKheQqcBbXShoe1Tmq3SsoHRQbAtmbzaCNSU2a
+M3Xk2RMXobrrVrhfUefrFf/WzPGr3nsbLncdOB0fnRTsLwzwe0qTLl2+pWhq
+SYwLzc2/+92JixKxeMqEIVKZ8se/bywqLOnSMRhMA8csY/uN8Y9/+1FVQ32D
+LCD+bZeQN8L6z6mXyHpEbCKO5UTlsmiVoqYV609EBAvXb//HjGVZD3I/+ynn
+3uQl+3d+Mu3ytbLySsnarWcLS2riIryA1L0GvwG6PH//Xa1CZ3Oj5035iBAf
+Ts/JJre1G0USu2u7ExpVPXlefeqkM2pqPFXvwRH84YArPpgbG/WcgpHDcfrq
+0Odvjh/MZDwNYjMmppQ8rHJU++jjRYGdu7zny+VCN15zq2rVRwvTFkzoVqBT
+iFlH9s98c3jXZb/40E27MmdPHek4SFio/+G/r+ew6Jmb3zNC+d6ZqHdteLd2
+8cQRKU9qFxKJmLXjb0ZjOxBIcE0gO3KF2m5HoTFogUsPEywtbzh86sbH6ePo
+VFJClA/UNJ5ubP3jr05dLC4qrSk8v3bM7J1QjabNTnlQKfF055jNVpPRjLJ3
+nmu98pkNADNrb3GNTBckoKq0JpWnl1ug8K+bV9ByfzYHhmIoWFeJ+NC8Nd9E
+DrNdL8ya5D0oUoD688n9ioarhZWLpg8CsqA3tAMA7i6s/Ufz6iXyb7fNn7X8
+QJCf6wfvjnLMQ+dzS1anjX51v+kGxs+VarLYyRSCqV5MIlgY7nx6SopK2Uby
+dqfwuQycTX+rtD8PPyDiZcAAm/r1SiGVTHLmsjzd+QIXTp1Y1kF+sBgPdx6Z
+RJS1KPjO7IKiMmcO08+74yxOo9VBchqQFB7gK/zx3BVIueNGJgOVopCIXA6z
+9GG1pLEVtsNqt3kJXSBJtLSqoDiF3APG7ink1zU0tbdb4qOCSCQCg05tVaiB
+5bM7afTVm/eBs9FolDpxk6xFCR1HDI1Xa3RsFh2eBJg0JBXwTuBjMF1tfRP8
+Aq4TFxX4a95tIoEwfHBcDy8McgdvqBTJgv1coXaJj/DOK6hIHdAHyPSIGVvj
+I30cgQG5U1qD/Vfqm25g/F2p1q7C0o4iYtEGMhWSpO3MBfntvJZvjuIrqu1C
+gVZrHBzKw7z0LO/Dzw9AQoZy79gP2bv2/9hBCs5e3pN16ovtRxekb+mwpoci
+2OtVH+0+9v0vv0e/3Qq5CoBZ/WmWWtMGZeCh73/NzDr9sKIGmMLDclGdRLZ5
+z3GgsPsOnu04Yil6OGPRZ9dvlqYOjv05p+BC9k15i3LOks8XrtzapjfU1Ejv
+lFQ+KSrTNty4VQqoLFmxtUokqauTZqzNBDsQS1rgLpQ+85ZtSsvYBe1rN0vX
+bDgAs/dLCN245fCFn68PHRjba2ngK0dOFRw/d6tFoe1Gq7FZ88aCPW+OSVi/
+ckIv/bPZ9xJi/F4RG0dguo9k4A8Zj5GJms4NHEfsGxegx/jQ6NdmzvvJzA4m
+W4Y9r6x5ei556UZLgzR98WQmnRoTFXivXJR3/Z5cpXVx4QYHextMpvc/2c/j
+cQrvlrnwmCaDsatX/36RMrnm5Okck1Y9f8boN0b1V8uaL1y86ubGh7124XOG
+9IsO7+MHjMDQbj59/mpRSaVQyAdjhwQCPgF+oDWapkxK4bCYS1ftqqqT8ngd
+/L6ouEzAY8oVSqhqeXy2SqPV6I3DU5PsNntXLYXBYfsmhovqpGs2HuQ5s9iQ
+bDBouVKTMiReptCUP6rttTpsB/tijUmJYNLJ3ec3UDx9u23enCn9eim///kP
+dBp5UFLQq2DjGMp6nJV1fnP16uxG++bVOy4ePPrdsTPbBEkVNx+lhjl7cSkv
+GTMo2E/dbq+ulXYc+Yib2BTy4ORIAhojkzRXVtRmbkqHov1va/ZWlNXExUXU
+NTQWFj4AzVlvjQj0cf1s6xEDCt+Zh+0GNM7b1+NxVZ1SrdWbzGibTdWqhBIH
+bbEMGRjtxuc0iCQkLJaAw1lNZozVqm7TS6UtKxdOnDF1xKJlm9HWDjp3/Mzl
+hMSoKpE4O/u6RWekkYhKlRYKTKNOp+8s+DVKTb2o4fhXa4A3r1q7j0Um8tlO
+GAymX2LYB+nTFqZ9rupZohIJuDEpkbHh3lD2A62Aj6cbB8oal56nAx2HGt/k
+VFQ3Htox/0UbhV23bt1LgSmqkemfhjJHmgud8Vhyu7Faqi2wMculOopCDqAt
+SvXxcqa+BBsmg8pyokPQAANUanRJieEhAZ5ag5FKo7i4coMCPIf0izKZzWqd
+4YP0t7UGs9FsgfyRX1D6uFa6dOGkyFDfU+ev3r5TkTIgZtHssacv5EPwGZ2a
+CAyqzWCCu1Cl9o3rAwWpFY0ikUlQUqh1+v7JUQMSwi7l34mJDoqLCODzOQIB
+F1JaeWX9RytnQlaStqjAa4Gyx0YGVlTVc7nsq7fAJuwkCsmJxYiNDBqVkghs
+DUMkNDYr8DhMq1xd8rA6OSkiJiKg6y2GwyHvk9czsEU14laVWs9kkDEONKy6
+rnnt1jN1DfKvvphNJhH+3+/WHje1vb27SNyq93Pp4TEvO15Tm6J9nX5IT/i/
+KENuB0vkO7Oee9feIShMZ9aCFqzVYDRp2vR8bod+m84AaQ5SelflYbPbqRTS
+c8cBIgAfKpXUVR5arTYYs/vFVuckHUd/jtN1VZodmaOz7IC+ji/CQE+nM0IX
+ArGDGrCYNMfC81kxGM3lVdJWZZvVYjVbbFqdsVGmksiUUX08Zk5MfpX3nmqD
+Of3b+60akw+fAsB0vSiz/x7Kuhu9zwuUxukDPCbG/xmp88sFCEJtQ6tcCY5t
+hvQWGuj+6u+ktUYLeCmVhEO29X/k/wUQQbBBsEEEwQYRBBsEG0QQbBBsEEGw
+QQTBBsEGEQQbBBtEEGwQQbBBsEEEweZ/Wf4pwABp2DNHufVCAwAAAABJRU5E
+rkJggg==
+"/></td>
+                        <td class="bold">
+                          <p>CZ-3581</p>
+                          <p>economy (Q)</p></td>
+                        <td>
+                          <p class="bold">06.06.2017 17:00</p>
+                          <p>Гуанчжоу (CN)</p>
+                          <p>Baiyun</p>
+                        </td>
+                        <td>
+                          <p class="bold">06.06.2017 19:25</p>
+                          <p>Шанхай (CN)</p>
+                          <p>Hongqiao International (2)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="tablecell" colspan="4">
+                          <table>
+                            <colgroup>
+                              <col width="20%">
+                              <col width="20%">
+                              <col width="15%">
+                              <col width="10%">
+                              <col width="15%">
+                              <col width="20%">
+                            <tbody>
+                              <tr class="header">
+                                <td>Детали</td>
+                                <td>Продолжительность</td>
+                                <td>Самолёт</td>
+                                <td>Багаж</td>
+                                <td>Тариф</td>
+                                <td>Статус</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Рейс выполняет China Southern Airlines (CZ)</p>
+                                  <p></p>
+                                </td>
+                                <td><p>02:25</p></td>
+                                <td><p>Airbus A321</p></td>
+                                <td><p>1N</p></td>
+                                <td><p>Z2KNCQB</p></td>
+                                <td><p>HK (Подтверждено)</p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr><th>ПЕРЕДАТОЧНАЯ НАДПИСЬ/ОГРАНИЧЕНИЯ</th></tr>
+          <tr><td>PAX Q/NONEND PENALTY APPLS,PAX Q/NONEND PENALTY APPLS</td></tr>
+            <tr>
+              <th>Расчёт стоимости</th>
+            </tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <colgroup>
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                  </colgroup>
+                  <tbody>
+                    <tr class="header">
+                      <td>Форма оплаты</td>
+                      <td>Тариф</td>
+                      <td>Аэропортовые сборы</td>
+                      <td>Итого</td>
+                    </tr>
+                    <tr>
+                      <td>ПК XXXX XXXX XXXX XXXX</p></td>
+                      <td>RUR 10140.00</td>
+                      <td>RUR 1824.00</td>
+                      <td>RUR 11964.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Расчёт оплаты</th>
+            </tr>
+            <tr>
+              <td class="tablecell">
+                <table>
+                  <colgroup>
+                    <col width="33.33%">
+                    <col width="33.33%">
+                    <col width="33.33%">
+                  </colgroup>
+                  <tbody>
+                    <tr class="header">
+                      <td>Эквивалент</td>
+                      <td>Сервисный сбор</td>
+                      <td>Общая стоимость</td>
+                    </tr>
+                    <tr>
+                      <td>EUR 193.90</td>
+                      <td>EUR 0.00</td>
+                      <td>EUR 193.90</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr><th>ПРИМЕЧАНИЯ</th></tr>
+          <tr>
+            <td class="notice">
+              <p> Перевозка и другие услуги, предоставляемые перевозчиком, подчиняются условиям перевозки, которые описаны ниже. Эти условия могут быть получены от валидирующего перевозчика.</p><p> Маршрут/квитанция представляет собой «Пассажирский билет», согласно статье №3 Варшавской конвенции, кроме тех случаев, когда перевозчик предоставляет пассажиру другой документ, отвечающий требованиям статьи №3.</p><p> Если пассажир достигает конечного места прибытия или делает остановку в другой стране, Варшавская конвенция может оставаться в силе, регулировать, а в большинстве случаев ограничивать ответственность перевозчика за смерть или травмы, а также по отношению к потере или повреждению багажа. Читайте также «Информацию об ограничении ответственности для пассажиров международных рейсов» и «Ограничение ответственности за багаж». </p>
+              
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </page>
+  </body>
+</html>
